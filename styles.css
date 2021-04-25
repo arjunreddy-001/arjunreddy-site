@@ -152,3 +152,16 @@ footer ul {
 .project-list {
     padding-inline-start: 0;
 }
+
+.live-link {
+    display: block;
+    max-width: 100px;
+    text-align:center;
+}
+
+.github-link {
+    display: block;
+    max-width: 205px;
+    text-align:center;
+    margin-top: 0.75rem;
+}
