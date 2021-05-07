@@ -167,3 +167,12 @@ footer ul {
     text-align:center;
     margin-top: 0.75rem;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.mt-75 {
+    display: inline-block;
+    margin-top: 0.75rem;
+}
