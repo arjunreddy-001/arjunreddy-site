@@ -26,6 +26,7 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 .container-center {
@@ -110,6 +111,16 @@ nav {
     text-align: center;
 }
 
+.hero .blog-heading {
+    color: var(--primary-color);
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+}
+
+.hero .blog-date {
+    display: block;
+}
+
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
@@ -175,4 +186,40 @@ footer ul {
 .mt-75 {
     display: inline-block;
     margin-top: 0.75rem;
+}
+
+/* blogs */
+
+.blog > h1 {
+    text-align: left;
+}
+
+.blog > h1 > a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* responsive image */
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#blog-content > img {
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 4px;
+}
+
+#blog-content a {
+    color: var(--primary-color);
+}
+
+.photo-credits {
+    margin-bottom: 2rem;
+}
+
+#blog-content h2 {
+    color: var(--primary-color);
 }
