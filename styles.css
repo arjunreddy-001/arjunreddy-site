@@ -68,7 +68,7 @@ hr {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -91,6 +91,10 @@ nav {
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+.navigation .nav-pills {
+    display: flex;
 }
 
 /* header */
