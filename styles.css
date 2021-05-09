@@ -53,6 +53,11 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
+.custom-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 /* lists */
 
 .list-non-bullet {
